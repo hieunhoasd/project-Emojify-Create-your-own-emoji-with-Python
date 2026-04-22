@@ -10,8 +10,8 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint  # type: i
 # ====================== XỬ LÝ ĐƯỜNG DẪN ======================
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-train_dir = os.path.normpath(os.path.join(base_dir, '..', 'data', 'train'))
-test_dir  = os.path.normpath(os.path.join(base_dir, '..', 'data', 'test'))
+train_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'train'))
+test_dir  = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'test'))
 
 print(f"--- Dang quet train data tai: {train_dir}")
 print(f"--- Dang quet test data tai : {test_dir}")
